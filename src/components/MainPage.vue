@@ -2,6 +2,7 @@
 import Welcome from './Welcome.vue';
 import ImageView from './ImageView.vue';
 import ClockView from './ClockView.vue';
+import CodeView from './CodeView.vue';
 import About from './About.vue';
 import Features from './Features.vue';
 import Roadmap from './Roadmap.vue';
@@ -13,6 +14,7 @@ import Footer from './Footer.vue';
     <Welcome />
     <ImageView />
     <ClockView />
+    <CodeView />
     <About />
     <Features />
     <Roadmap />

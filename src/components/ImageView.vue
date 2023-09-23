@@ -38,7 +38,7 @@
 <style scoped>
 .container {
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 50px;
   text-align: center;
 }

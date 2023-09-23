@@ -51,7 +51,7 @@
 <style scoped>
 .container {
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 50px;
   background-color: rgb(81, 81, 81);
   text-align: center;

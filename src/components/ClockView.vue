@@ -224,7 +224,7 @@ function moveMinuteHands(containers) {
 <style scoped>
 .container {
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 50px;
   padding-bottom: 0px;
   text-align: center;
@@ -298,7 +298,7 @@ body {
   background: transparent;
   padding: 0;
   width: 100%;
-  height: calc(100vh - 300px);
+  height: calc(70vh - 300px);
   overflow: hidden;
   margin: 0;
 }
@@ -308,11 +308,11 @@ body {
   background: radial-gradient(#000, #000 0.1em, #ffffffda 0.1em, #ffffffda), #ffffffda;
   display: inline-block;
   margin: 1%;
-  padding-bottom: 61%;
+  padding-bottom: 41%;
   position: absolute;
   left: 0;
   top: 95%;
-  width: 61%;
+  width: 41%;
   opacity: 0;
   transform: translateY(-40%);
 }
