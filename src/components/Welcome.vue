@@ -2,9 +2,9 @@
   <div class="container">
     <div class="title">
       <h1>Celebrate Caerus's Testnet Launch!</h1>
-      <button class="uk-button">
-        Time Travel with Caerus
-      </button>
+      <a href="https://caerus-1.gitbook.io/caerus" target="_blank">
+        <button class="uk-button">Time Travel with Caerus</button>
+      </a>
     </div>
   </div>
 </template>

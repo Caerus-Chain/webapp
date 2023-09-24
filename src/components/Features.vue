@@ -38,7 +38,6 @@
 <style scoped>
 .container {
   width: 100%;
-  min-height: 50vh;
   padding: 50px;
   background-color: rgb(40, 40, 40);
   text-align: center;
@@ -74,6 +73,11 @@ h1 {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 20px 20px 20px 0px;
   transition: all .3s ease-in-out;
+}
+
+.uk-card-body p{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .uk-card:hover {

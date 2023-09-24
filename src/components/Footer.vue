@@ -5,7 +5,7 @@
         <h3>EXTERNAL LINKS</h3>
         <div class="logo"><img src="/logo.png" /></div>
         <div class="list">
-          <p><a href="" target="_blank">Document</a></p>
+          <p><a href="https://caerus-1.gitbook.io/caerus" target="_blank">Document</a></p>
           <p><a href="https://github.com/Caerus-Chain" target="_blank">GitHub</a></p>
           <p><a href="https://t.me/CAERUS_CHAIN" target="_blank">Telegram</a></p>
         </div>
