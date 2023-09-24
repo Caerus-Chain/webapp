@@ -8,6 +8,7 @@
       <div>
         <div class="uk-card uk-card-default uk-card-body">
           <h3 class="uk-card-title">Archive-powered EVM</h3>
+          <hr class="uk-divider-small">
           <p>
             Caerus provides direct on-chain access to historical data through the EVM,
             by Archive Storage.
@@ -17,6 +18,7 @@
       <div>
         <div class="uk-card uk-card-default uk-card-body">
           <h3 class="uk-card-title">Solidity Extension</h3>
+          <hr class="uk-divider-small">
           <p>
             With a Solidity compiler modifications,
             Caerus enables developers to seamlessly utilize historical data.
@@ -26,6 +28,7 @@
       <div>
         <div class="uk-card uk-card-default uk-card-body">
           <h3 class="uk-card-title">Versatile Applicability</h3>
+          <hr class="uk-divider-small">
           <p>
             Caerus is applicable across various blockchain ecosystems,
             particullary for reputation and financial services.
@@ -69,6 +72,10 @@ h1 {
   padding-bottom: 50px;
 }
 
+.uk-card-title {
+  font-size: 2.3rem;
+  font-weight: 200;
+}
 .uk-card {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 20px 20px 20px 0px;
@@ -76,6 +83,8 @@ h1 {
 }
 
 .uk-card-body p{
+  font-size: 1.1rem;
+  font-weight: 400;
   padding-top: 50px;
   padding-bottom: 50px;
 }

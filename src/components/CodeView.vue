@@ -116,7 +116,7 @@ pre code {
 
 .caption {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0px 20px 0px 20px;
 }
 
