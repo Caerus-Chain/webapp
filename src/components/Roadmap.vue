@@ -10,23 +10,23 @@
         <tbody>
           <tr>
             <td class="year active">2023</td>
-            <td>1Q. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>2Q. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td class="active">4Q. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+            <td style="text-align: left;">4Q. Celebrate Caerus's Testnet Launch!</td>
           </tr>
           <tr>
             <td class="year">2024</td>
-            <td>2Q. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+            <td style="text-align: left;">1Q. Employ advanced DB optimization techniques.</td>
           </tr>
           <tr>
-            <td></td>
-            <td>3Q. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+            <td style="text-align: left;"></td>
+            <td style="text-align: left;">2Q. Launch Caerus L2-chain on Ethereum.</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;"></td>
+            <td style="text-align: left;">3Q. Partnerships with various decentralized applications.</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;"></td>
+            <td style="text-align: left;">4Q. Promote community and educational programs.</td>
           </tr>
         </tbody>
       </table>

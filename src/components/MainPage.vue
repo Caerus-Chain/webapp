@@ -13,9 +13,9 @@ import Footer from './Footer.vue';
   <div>
     <Welcome />
     <ImageView />
-    <ClockView />
+    <!-- <ClockView /> -->
     <CodeView />
-    <About />
+    <!-- <About /> -->
     <Features />
     <Roadmap />
     <Footer />

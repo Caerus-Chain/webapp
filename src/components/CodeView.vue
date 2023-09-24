@@ -1,27 +1,7 @@
 <template>
   <div class="container">
-    <h1>Layer-2 chain with a time-aware EVM</h1>
-    <!--div class="title"><h1>About Caerus</h1></div-->
-    <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
-      <div class="left">
-        <div uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
-          <highlightjs language='solidity' code="bytes32 result = caerus(
-  address(this),        // account
-  slotNumber,           // slot number
-  blockNumber           // block number
-);" />
-        </div>
-      </div>
-      <div class="right">
-        <div uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit.<br />Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-          </p>
-        </div>
-      </div>
-    </div>
+    <!--h1>Caerus Contract Development</h1-->
+    <div class="title"><h1>Contract Development</h1></div>
     <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
       <div class="left">
         <div uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
@@ -40,14 +20,33 @@
       <div class="right">
         <div uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit.<br />Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
+            To access historical data on the Caerus chain, you can invoke precompiled contract 19 (0x13),
+            specifying the account address, slot number, and past block number as parameters.
           </p>
-
         </div>
       </div>
     </div>
+
+    <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
+      <div class="left">
+        <div uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
+          <highlightjs language='solidity' code="bytes32 result = caerus(
+  address(this),        // account
+  slotNumber,           // slot number
+  blockNumber           // block number
+);" />
+        </div>
+      </div>
+      <div class="right">
+        <div uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
+          <p>
+            Alternatively, you can use the keyword "caerus" to retrieve past data in bytes32 format,
+            utilizing our customized Solidity compiler.
+          </p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 <style scoped>
@@ -90,7 +89,7 @@ h1 {
 
 p {
   color: rgba(255, 255, 255, 0.89);
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 pre {

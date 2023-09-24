@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="title"><h1>#Caerus</h1></div>
-    <h1>Layer-2 chain with a time-aware EVM</h1>
+    <h1>Layer-2 Chain with a Time-aware EVM</h1>
     <div>
       <div class="right" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
         <img class="infographic" src="/right.png" />
@@ -13,8 +13,8 @@
         <img class="infographic" src="/left.png" />
       </div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit.
+        A Time-aware EVM is an extension of the Ethereum Virtual Machine,<br />
+        with added functionalities that allow it to interact with <span class="primary">historical on-chain data</span> directly.
       </p>
     </div>
     <!--div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
@@ -97,6 +97,9 @@ h2 {
 }
 p {
   color: rgba(255, 255, 255, 0.89);
-  font-size: 2rem;
+  font-size: 1.3rem;
+}
+p .primary {
+  color: yellow;
 }
 </style>

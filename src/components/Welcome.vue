@@ -1,8 +1,10 @@
 <template>
   <div class="container">
     <div class="title">
-      <h1>Celebrate Caerus's Mainnet Launch!</h1>
-      <button class="uk-button">Mint Caerus Genesis NFT</button>
+      <h1>Celebrate Caerus's Testnet Launch!</h1>
+      <button class="uk-button">
+        Time Travel with Caerus
+      </button>
     </div>
   </div>
 </template>

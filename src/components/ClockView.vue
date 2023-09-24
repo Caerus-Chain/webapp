@@ -197,13 +197,13 @@ function moveMinuteHands(containers) {
 
 <template>
   <div class="container">
-    <h1>Layer-2 chain with a time-aware EVM</h1>
+    <h1>TIME IS GOLD</h1>
     <div
       uk-scrollspy="cls: uk-animation-fade; target: p, .demo-container; delay: 200; repeat: false"
     >
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit.
+        Caerus offers a decentralized solution, enabling applications to leverage historical data,<br />
+        which is particularly beneficial for reputation systems and financial calculations.
       </p>
       <div class="demo-container clocks active bounce ios7">
         <article class="clock station js-new-york">

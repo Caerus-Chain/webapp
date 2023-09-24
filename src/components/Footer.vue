@@ -2,40 +2,52 @@
   <div class="container">
     <div>
       <div>
-        <h3>Resources.</h3>
-        <div class="list">
-          <p>Developer Docs</p>
-          <p>Developer Docs</p>
-        </div>
-        <h3>Contact Us.</h3>
+        <h3>EXTERNAL LINKS</h3>
         <div class="logo"><img src="/logo.png" /></div>
         <div class="list">
-          <p>Developer Docs</p>
-          <p>Developer Docs</p>
+          <p><a href="" target="_blank">Document</a></p>
+          <p><a href="https://github.com/Caerus-Chain" target="_blank">GitHub</a></p>
+          <p><a href="https://t.me/CAERUS_CHAIN" target="_blank">Telegram</a></p>
         </div>
+        <!-- <h3>Contact Us.</h3> -->
+        <!-- <div class="list"> -->
+        <!-- <p>Developer Docs</p> -->
+        <!-- <p>Developer Docs</p> -->
+        <!-- </div> -->
       </div>
     </div>
   </div>
 </template>
 <style scoped>
+a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 .container {
   width: 100%;
   padding: 50px 50px 50px 100px;
   background-color: rgb(40, 40, 40);
 }
+
 .logo {
-  width: 50px;
+  width: 100px;
   filter: grayscale(100%);
   display: inline-block;
   position: relative;
-  top: -15px;
+  top: -30px;
   padding-right: 10px;
   transition: all .3s ease-in-out;
   cursor: pointer;
 }
+
 .logo:hover {
   filter: grayscale(0%);
 }
+
 .list {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
