@@ -21,7 +21,7 @@
           <a href="https://github.com/Caerus-Chain/test-contract/blob/master/contracts/TestContract.sol" target="_blank"><img class="icon" src="/arrow.svg" /></a>
           <div class="caption">
             <span>
-              To access historical data on the Caerus chain, you can invoke precompiled
+              To access historical data on the Historeum, you can invoke precompiled
               contract 19 (0x13), specifying the account address, slot number, and past
               block number as parameters.
             </span>
@@ -42,7 +42,7 @@
           <a href="https://github.com/Caerus-Chain/test-contract/blob/master/contracts/TestContract.sol" target="_blank"><img class="icon" src="/arrow.svg" /></a>
           <div class="caption">
             <span>
-              Alternatively, you can use the keyword "caerus" to retrieve past data in
+              Alternatively, you can use the keyword `caerus` to retrieve past data in
               bytes32 format, utilizing our customized Solidity compiler.
             </span>
           </div>

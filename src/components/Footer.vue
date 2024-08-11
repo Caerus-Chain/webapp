@@ -3,11 +3,14 @@
     <div>
       <div>
         <h3>EXTERNAL LINKS</h3>
+        <br />
         <div class="logo"><img src="/logo.png" /></div>
         <div class="list">
-          <p><a href="https://caerus-1.gitbook.io/caerus" target="_blank">Document</a></p>
-          <p><a href="https://github.com/Caerus-Chain" target="_blank">GitHub</a></p>
-          <p><a href="https://t.me/CAERUS_CHAIN" target="_blank">Telegram</a></p>
+          <!-- <p><a href="https://caerus-1.gitbook.io/caerus" target="_blank">Document</a></p> -->
+          <p>
+            <a href="https://github.com/Caerus-Chain" target="_blank">GitHub</a>
+          </p>
+          <!-- <p><a href="https://t.me/CAERUS_CHAIN" target="_blank">Telegram</a></p> -->
         </div>
         <!-- <h3>Contact Us.</h3> -->
         <!-- <div class="list"> -->
@@ -40,7 +43,7 @@ a:hover {
   position: relative;
   top: -30px;
   padding-right: 10px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 

@@ -10,7 +10,7 @@
           <h3 class="uk-card-title">Archive-powered EVM</h3>
           <hr class="uk-divider-small">
           <p>
-            Caerus provides direct on-chain access to historical data through the EVM,
+            Historeum provides direct on-chain access to historical data through the EVM,
             by Archive Storage.
           </p>
         </div>
@@ -21,7 +21,7 @@
           <hr class="uk-divider-small">
           <p>
             With a Solidity compiler modifications,
-            Caerus enables developers to seamlessly utilize historical data.
+            Historeum enables developers to seamlessly utilize historical data.
           </p>
         </div>
       </div>
@@ -30,7 +30,7 @@
           <h3 class="uk-card-title">Versatile Applicability</h3>
           <hr class="uk-divider-small">
           <p>
-            Caerus is applicable across various blockchain ecosystems,
+            Historeum is applicable across various blockchain ecosystems,
             particullary for reputation and financial services.
           </p>
         </div>

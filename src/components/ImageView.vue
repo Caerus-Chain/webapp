@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="title"><h1>#Caerus</h1></div>
+    <div class="title"><h1>#Historeum</h1></div>
     <h1>Layer-2 Chain with a Time-aware EVM</h1>
     <div>
       <div class="right" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
@@ -29,7 +29,7 @@
       </div>
       <div>
         <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-          <h2>{ Timestamp: 1695441975 Data: "Hello, Caerus" }</h2>
+          <h2>{ Timestamp: 1695441975 Data: "Hello, Historeum" }</h2>
         </div>
       </div>
     </div-->
